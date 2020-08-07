@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import ApiContext from '../api/ApiContext'
 import UserItem from './UserItem';
 
@@ -8,19 +8,22 @@ const Body = () => {
 
     const { current, getmed } = apiContext;
     const [currentPage, setCurrentPage] = useState(0);
+    const [loading, setLoading] = useState(false)
     const [postsPerPage] = useState(10);
+
+    useEffect(() => {
+        setLoading(true)
+        getmed(postsPerPage, currentPage);
+        setLoading(false)
+    }, [getmed, postsPerPage, currentPage])
     if (currentPage < 0) {
         setCurrentPage(0);
-    } else if (!current) {
-        return <p className='text-center'>Loading...</p>
     }
-
-    getmed(postsPerPage, currentPage);
 
     return (
         <div>
             <div style={userStyle}>
-                {current.map((d) => <UserItem key={d._id} d={d} />)}
+                {loading ? <div>Loading...</div> : current.map((d) => <UserItem key={d._id} d={d} />)}
 
             </div>
             <div className='text-center' style={{ marginTop: '30px', marginBottom: '60px' }}>

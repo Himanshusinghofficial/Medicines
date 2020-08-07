@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Medicines/static/css/main.167fc0d5.chunk.css",
-    "main.js": "/Medicines/static/js/main.7f016ec6.chunk.js",
-    "main.js.map": "/Medicines/static/js/main.7f016ec6.chunk.js.map",
+    "main.js": "/Medicines/static/js/main.ae825af1.chunk.js",
+    "main.js.map": "/Medicines/static/js/main.ae825af1.chunk.js.map",
     "runtime-main.js": "/Medicines/static/js/runtime-main.e13fee4e.js",
     "runtime-main.js.map": "/Medicines/static/js/runtime-main.e13fee4e.js.map",
     "static/js/2.9c9c6305.chunk.js": "/Medicines/static/js/2.9c9c6305.chunk.js",
     "static/js/2.9c9c6305.chunk.js.map": "/Medicines/static/js/2.9c9c6305.chunk.js.map",
     "index.html": "/Medicines/index.html",
-    "precache-manifest.4d47fc4f411226ce3449b1a31a423bc0.js": "/Medicines/precache-manifest.4d47fc4f411226ce3449b1a31a423bc0.js",
+    "precache-manifest.a84f29f58bc8a5997624b9545a46ba77.js": "/Medicines/precache-manifest.a84f29f58bc8a5997624b9545a46ba77.js",
     "service-worker.js": "/Medicines/service-worker.js",
     "static/css/main.167fc0d5.chunk.css.map": "/Medicines/static/css/main.167fc0d5.chunk.css.map",
     "static/js/2.9c9c6305.chunk.js.LICENSE.txt": "/Medicines/static/js/2.9c9c6305.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e13fee4e.js",
     "static/js/2.9c9c6305.chunk.js",
     "static/css/main.167fc0d5.chunk.css",
-    "static/js/main.7f016ec6.chunk.js"
+    "static/js/main.ae825af1.chunk.js"
   ]
 }
